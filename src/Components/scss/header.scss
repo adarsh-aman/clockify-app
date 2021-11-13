@@ -1,0 +1,17 @@
+.header-wrapper{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    .header-right {
+            span{
+                    margin: 0 10px;
+                    font-size: 14px;
+            }
+    }
+}
+.clockify-title {
+    color: #5997cd;
+    font-weight: 600;
+    font-size: 18px;
+}

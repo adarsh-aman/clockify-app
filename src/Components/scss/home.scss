@@ -1,0 +1,31 @@
+.home-container{
+        border: 1px solid black;
+        min-height: 100vh;
+        width: 80%;
+        input{
+            padding: 5px;
+            margin: 5px;
+            min-width: 200px;
+            width: 40%;
+        }
+        button{
+            padding: 5px;
+            margin: 5px;
+        }
+}
+
+.sideNav-container{
+    border: 1px solid black;
+    min-height: 100vh;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    a {
+        padding: 20px;
+        cursor: pointer;
+    }
+}
+
+.contentWrapper {
+    display: flex;
+}
